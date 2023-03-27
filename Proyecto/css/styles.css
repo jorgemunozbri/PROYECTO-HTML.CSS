@@ -89,3 +89,18 @@ body{
     
 }
 
+.bloque-2{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-2{
+    color: #ffff;
+    justify-items: center;
+    align-items: center;
+    width: 50rem;
+    padding-right: 3rem;
+}
+
+
+
