@@ -3,13 +3,11 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
 .mainMenu{
     display: flex;
     flex-direction: row;
     background-color: black;
 }
-
 .logo{
     font-size: 2rem;
     width: 20rem;
@@ -46,14 +44,48 @@ body{
     background-color: aqua;
     width: 30rem;
 }
+.bloque1{
+    display: flex;
+    flex-direction: row;
+    animation: fadeIn 6s;
+}
 
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 .imagenBloque1{
+    display: flex;
     width: 30rem;
     height: 30rem;
+    
+}
+
+.patrafo-1{
+    display: flex;
+    color: #ffff;
+    justify-items: center;
+    text-align: right;
+    width: 50rem;
+    padding-right: 3rem;
 }
 .barraEspacio{
     background-color:#ffffff75;
-    width: 75%;
-    height: 1px;
+    width: 100%;
+    height: 4px;
+    margin: 0;
+    padding: 0;
 }
+
+.videArrival{
+    width: 100%;
+    height: auto;
+    animation: fadeIn 8s;
+    
+}
+
