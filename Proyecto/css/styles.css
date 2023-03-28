@@ -23,7 +23,6 @@ body{
 
 .btnMenu{
     background-color: transparent;
-    font-size: 01rem;
     color: whitesmoke;
     border: none;
     opacity: 0.5;
@@ -41,7 +40,7 @@ body{
 .letrasMenu{
     display: flex;
     background-color: transparent;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: whitesmoke;
     border: none;
     text-decoration: none;
@@ -142,6 +141,7 @@ body{
         justify-content: center;
         width: 100%;
         gap: 2rem;
+        
     }
 }
 
