@@ -14,7 +14,7 @@ body{
     width: 100%;
 }
 .logo{
-    font-size: 4rem;
+    font-size: 3rem;
     width: 40rem;
     margin-left: 2rem;
     color: whitesmoke;
@@ -44,6 +44,7 @@ body{
     color: whitesmoke;
     border: none;
     text-decoration: none;
+    padding-top:0.5rem;
 }
 
 .texto{
@@ -141,7 +142,6 @@ body{
         justify-content: center;
         width: 100%;
         gap: 2rem;
-        
     }
 }
 
@@ -151,9 +151,9 @@ body{
     font-size: 2rem;
     padding-left: 2rem;
     width: 100%;
-    
     }
 }
+
 .barraEspacio{
     background-color:#ffffff75;
     width: 100%;
@@ -166,7 +166,6 @@ body{
     width: 100%;
     height: auto;
     animation: fadeIn 8s;
-    
 }
 
 .bloque-2{
@@ -192,4 +191,57 @@ body{
     opacity: 1;
 }
 
+.cointainerLogin{ 
+    display: flex;  
+    background-image: url(../assets/untitled1.jpg);
+    background-size: cover;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.loginMenu {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(233, 233, 233, 0.25);
+    width: 30rem;
+    height: 25rem;
+    border-radius: 8px;
+    
+}
+
+.inputLogin{
+    background-color: rgba(233, 233, 233, 0.555);
+    width: 20rem;
+    border:none;
+    opacity: 0.5;
+    border-radius: 4px; 
+}
+
+.inputLogin:hover{
+    width: 20rem;
+    border:none;
+    opacity: 1;
+    border-radius: 4px;
+    transition: 0.5s; 
+}
+
+
+
+
+
+.btnSubmit{
+    background-color: rgba(233, 233, 233, 0.555);
+    border: none;
+    border-radius: 4px;
+    padding:0.4rem 0.8rem;
+}
+.btnSubmit:hover{
+    background-color: rgba(233, 233, 233, 0.836);
+    border: none;
+    border-radius: 4px;
+    padding:0.4rem 0.8rem;
+    transition: 0.5s;
+}
