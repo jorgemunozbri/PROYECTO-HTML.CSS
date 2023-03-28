@@ -59,6 +59,11 @@ body{
     }
 }
 
+.titleBloque1{
+    color: #ffff;
+    font-size: 5rem;
+}
+
 .imagenBloque1{
     display: flex;
     width: 30rem;
@@ -67,12 +72,13 @@ body{
 }
 
 .patrafo-1{
+    margin-top: 2rem;
     display: flex;
     color: #ffff;
     justify-items: center;
     text-align: right;
     width: 50rem;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 .barraEspacio{
     background-color:#ffffff75;
@@ -102,5 +108,14 @@ body{
     padding-right: 3rem;
 }
 
+.readMore{
+    color: rgb(177, 54, 136);
+    opacity: 0.5;
+}
+
+.readMore:hover{
+    color: rgb(255, 138, 216);
+    opacity: 1;
+}
 
 
