@@ -71,7 +71,7 @@ body{
     
 }
 
-.patrafo-1{
+.parrafo-1{
     margin-top: 2rem;
     display: flex;
     color: #ffff;
@@ -79,7 +79,31 @@ body{
     text-align: right;
     width: 50rem;
     padding-right: 1rem;
+   
+    
 }
+@media all and (max-width: 980px){
+    .bloque1{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+} 
+@media all and (max-width: 980px){
+    .parrafo-1{
+    margin-top: 2rem;
+    display: flex;
+    color: #ffff;
+    justify-items: center;
+    text-align: right;
+    width: 20rem;
+    padding-right: 1rem;
+
+
+    }
+} 
+
 .barraEspacio{
     background-color:#ffffff75;
     width: 100%;
