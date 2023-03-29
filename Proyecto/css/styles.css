@@ -75,7 +75,7 @@ body{
 .titleBloque1{
     color: #ffff;
     font-size: 4rem;
-    margin-left: 20rem;
+    justify-items: flex-start;
     
 }
 
@@ -98,7 +98,7 @@ body{
     animation: fadeIn 8s;   
 }
 
-@media all and (max-width: 980px){
+@media all and (max-width: 912px){
     .bloque1{
         display: flex;
         flex-direction: column;
@@ -107,25 +107,38 @@ body{
     }
 } 
 
-@media all and (max-width: 980px){
+@media all and (max-width: 912px){
+    .parrafo-1{
+    margin-top: 2rem;
+    display: flex;
+    color: #ffff;
+    justify-items: left;
+    text-align: left;
+    width: 75%;
+    padding-right: 4rem;
+    }
+} 
+
+@media all and (max-width: 481px){
     .parrafo-1{
     margin-top: 2rem;
     display: flex;
     color: #ffff;
     justify-items: center;
-    text-align: right;
+    text-align: center;
     width: 20rem;
     padding-right: 1rem;
     }
 } 
-@media all and (max-width: 980px){
+
+@media all and (max-width: 912px){
     .logo{
         text-align: center;
         width: 20rem;
     }
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width:912px) {
     .mainMenu {
         display: flex;
         flex-direction: column;
@@ -135,7 +148,7 @@ body{
         gap: 0.5rem;
     }
 }
-@media all and (max-width: 980px) {
+@media all and (max-width: 912px) {
     .menu {
         display: flex;
         flex-direction: row;
@@ -146,13 +159,24 @@ body{
     }
 }
 
-@media all and (max-width: 980px){
+@media all and (max-width: 912px){
 .textoTitle {
     color:whitesmoke;
     font-size: 2rem;
     padding-left: 2rem;
     width: 100%;
     }
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.imagenGaleria{
+    object-fit: contain;
+    width: 20%;
+    height: auto;
 }
 
 .barraEspacio{
