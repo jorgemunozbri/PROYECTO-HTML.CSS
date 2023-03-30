@@ -166,19 +166,13 @@ body{
         margin-left: 0;
     }
 }
-@media all and (max-width: 412px){
-    .logo{
-        text-align: center;
-        padding: 0;
-        width: 75%;
-        margin-left: 0;
-        
-    }
-}
+
 
 @media all and (max-width: 418px){
     .logo{
         width: 20rem;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding-right: 0;
         margin-right: 0;
@@ -201,9 +195,10 @@ body{
     .menu {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: flex-end;
-        width: 100%;
+        align-items: end;
+        margin: right 1em; 
+        justify-content:end;
+        width: 98%;
         gap: 2rem;
         
     }
