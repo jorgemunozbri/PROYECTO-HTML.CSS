@@ -14,6 +14,7 @@ body{
     background-color: black;
     width: 100%;
 }
+
 .logo{
     font-size: 3rem;
     width: 40rem;
@@ -133,7 +134,7 @@ body{
     display: flex;
     color: #ffff;
     justify-items: center;
-    text-align: center;
+    text-align: justify;
     width: 20rem;
     padding-right: 1rem;
     }
