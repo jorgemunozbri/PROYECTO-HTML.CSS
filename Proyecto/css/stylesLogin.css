@@ -109,7 +109,7 @@ body{
 }
 
 .inputLogin:hover{
-    background-color:  rgba(255, 15, 175, 0.326);
+    background-color:  rgba(214, 105, 38, 0.629);
     width: 20rem;
     border:none;
     opacity: 1;
@@ -126,12 +126,12 @@ body{
     color: white;
 }
 .btnSubmit:hover{
-    background-color: rgba(54, 54, 54, 0.767);
+    background-color:  rgba(214, 105, 38, 0.629);
     border: none;
     border-radius: 4px;
     padding:0.4rem 0.8rem;
     transition: 0.8s;
-    color: rgb(177, 54, 136);
+    color: rgb(255, 255, 255);
 }
 
 .letrasMenuLoginTitle{
