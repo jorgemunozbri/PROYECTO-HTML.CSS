@@ -141,6 +141,8 @@ body{
     text-align: justify;
     width: 20rem;
     padding-right: 1rem;
+    padding-left: 0;
+    margin-left: 0;
     }
 } 
 
